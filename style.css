@@ -1,0 +1,86 @@
+* {
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    /*background: rgb(159, 159, 241);*/
+}
+
+#homepageBackground{
+    background-image: url(Pictures/HeberBody.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.homepage {
+    display: grid;
+}
+
+.containter {
+    display: grid;
+    
+}
+.hero {
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(Pictures/heber.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    background-position: 100% 37%;
+    top: 0;
+    margin-top: -22px;
+  
+}
+
+header > h1.welcome {
+    display: flex;
+    color: black;
+    font-family: cursive;
+    font-size: 2rem;
+    border: dotted;
+    border-color: transparent;
+    width: 300px;
+    margin-left: 43%;
+    
+}
+
+header > h1:hover {
+    color: white;
+    cursor: crosshair;
+    
+}
+
+header > ul {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 60px;
+    justify-content: space-between;
+    color: blue;
+    list-style-type: none;
+    font-family: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+
+header > ul > li {
+    margin-left: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding: 6px 13px;
+}
+
+header > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+header > ul > li > a:hover {
+    
+    color: cornflowerblue;
+    cursor: pointer;
+    
+}
