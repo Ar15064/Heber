@@ -8,11 +8,41 @@ body {
 }
 
 #homepageBackground{
-    background-image: url(Pictures/HeberBody.jpeg);
+    
+    background-image: url(Pictures/Optomize2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 100% -5%;
     height: 100%;
 }
+
+#secondpageBackground{
+    
+    background-image: url(Pictures/Secondpage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% -5%;
+    height: 100%;
+}
+
+#thirdpageBackground{
+    
+    background-image: url(Pictures/pageThree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% -5%;
+    height: 100%;
+}
+
+#fourthpageBackground{
+    
+    background-image: url(Pictures/Optamize1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% -5%;
+    height: 100%;
+}
+
 
 .homepage {
     display: grid;
@@ -24,30 +54,32 @@ body {
 }
 .hero {
     
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(Pictures/heber.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(Pictures/Optamize1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
-    width: 100%;
-    background-position: 100% 37%;
+    background-position: 100% 47%;
     top: 0;
     margin-top: -22px;
+    height: 300px;
   
 }
 
 header > h1.welcome {
     display: flex;
+    justify-content: center ;
     color: black;
     font-family: cursive;
     font-size: 2rem;
-    border: dotted;
-    border-color: transparent;
-    width: 300px;
-    margin-left: 43%;
-    
 }
 
-header > h1:hover {
+header > h1.welcome > a{
+    text-decoration: none;
+    color: black;
+}
+    
+    
+
+header > h1 > a:hover {
     color: white;
     cursor: crosshair;
     
@@ -56,31 +88,100 @@ header > h1:hover {
 header > ul {
     display: flex;
     margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 60px;
-    justify-content: space-between;
-    color: blue;
     list-style-type: none;
     font-family: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-evenly;
+  
+
+    
+    
 }
 
 header > ul > li {
-    margin-left: 30px;
-    border-radius: 10px;
-    color: white;
-    background-color: black;
-    padding: 6px 13px;
+    
+    
 }
 
 header > ul > li > a {
     color: white;
+    background-color: gray;
+    padding: 6px 13px;
+    margin-left: 30px;
+    border-radius: 10px;
+    color: black;
     text-decoration: none;
 }
 
 header > ul > li > a:hover {
-    
-    color: cornflowerblue;
+    background-color: black;
+    color: white;
     cursor: pointer;
     
 }
+
+
+article {
+    
+    justify-content: center;
+    font-size: large;
+    
+}
+
+.aricletext {
+    border-style: groove;
+    border-color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background: linear-gradient();
+    margin: auto;
+    margin-top: 100px;
+    width: 40%;
+    height: 40%;
+
+    
+
+
+}
+
+article > h2 {
+    
+    text-align: center;
+    position: relative;
+    
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ article > h2.aricletext {
+    
+ }
+
+article > h2 > p {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    color: salmon;
+   
+}
+
+article > h2.aricletext > p.changeThis > figure {
+    border: groove;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+article > h2.aricletext > figure > figcaption {
+    color: white;
+    font-size: medium;
+    border: groove;
+    border-color: white;
+    background: linear-gradient(rgba(100, 99, 99, 0.5), rgba(112, 110, 110, 0.5));
+
+    
+    
+}
+
+
