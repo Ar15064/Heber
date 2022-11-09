@@ -156,24 +156,32 @@ article > h2 {
     
  }
 
-article > h2 > p {
-    display: flex;
-    justify-content: center;
-    font-size: large;
-    color: salmon;
+figure.images {
+    border: groove;
+    border-color: red;
+    width: 700px;
+    height: 700px;
    
 }
 
-article > h2.aricletext > p.changeThis > figure {
-    border: groove;
-    height: 100px;
-    width: 100px;
-}
 
+
+
+
+
+.hello {
+    display: flex;
+    border-image: fill;
+    
+    
+ 
+}
 
 
 
 article > h2.aricletext > figure > figcaption {
+    display: flex;
+    justify-content: center;    
     color: white;
     font-size: medium;
     border: groove;
@@ -185,3 +193,61 @@ article > h2.aricletext > figure > figcaption {
 }
 
 
+div.Images{ 
+    color: green;
+}
+
+div.Images > ul{ 
+    display: flex ;
+    justify-content: space-between;
+    text-decoration: none;
+    
+
+}
+div.Images > ul > li{ 
+    list-style-type: none;
+    margin-left: 100px;
+    border: groove;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+
+    
+    
+}
+
+div.Images > ul > li.Image1 {
+   background-image: url(Pictures/HeberBody.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+div.Images > ul > li.Image2 {
+    background-image: url(Pictures/HeberBody.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ div.Images > ul > li.Image3 {
+    background-image: url(Pictures/HeberBody.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ div.Images > ul > li.Image4 {
+    background-image: url(Pictures/HeberBody.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ div.Images > ul > li.Image5 {
+    background-image: url(Pictures/HeberBody.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ div.Images > ul > li.Image6 {
+    background-image: url(Pictures/HeberBody.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
